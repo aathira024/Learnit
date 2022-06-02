@@ -1,0 +1,10 @@
+var general;
+console.log(general);
+general=6;
+console.log(typeof general);
+general="hi";
+console.log(typeof general);
+general='hi';
+console.log(typeof general);
+general="true";
+console.log(typeof general);

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            .imgbox{
+                float: left;
+                text-align: center;
+                padding: 4px;
+                width: 100px;
+                margin: 3px;
+                border: 2px solid black;
+            }
+            Button{
+               width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <p>these all types of diplay</p>
+        <div class="imgbox" id="imgbox1">Box 1<br>
+        <img src="../images/aathi.gif" alt="flower" style="width: 50%">
+        <button onclick="removeElement()">Remove</button>
+    </div>
+    <div class="imgbox" id="imgbox2">Box 2<br>
+        <img src="../images/aathi.gif" alt="sun" style="width: 50%">
+        <button onclick="changeVisibility()">Hide</button>
+   </div>
+   <div class="imgbox">Box 3<br>
+   <img src="../images/aathi.gif" alt="aathi" style="width: 50%">
+   <button onclick="resetElement()">Resetall</button>
+</div>
+   <script>
+       function removeElement(){
+           document.getElementById("imgbox1").style.display = "none";
+       }
+       function changeVisibility(){
+        document.getElementById("imgbox2").style.display = "hidden";
+       }
+       function resetElement(){
+           document.getElementById("imgbox1").style.display = "block"
+           document.getElementById("imgbox2").style.display = "visible"
+       }
+   </script>
+    </body>
+</html>

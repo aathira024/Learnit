@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing:content-box;
+            }
+            .box {
+                float:left;
+                width:20 %;
+                padding:5px;
+            }
+            .clearfix::after{
+                content: "";
+                clear: left;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>grid of boxes</h1>
+        
+        <div class="clearfix">
+            
+            <div class="box" style="background-color: orange;">
+            <p> some text</p>
+            </div>
+            <div class="box" style="background-color:palegreen;">
+                <p> some text</p>
+                </div>
+                <div class="box" style="background-color: purple;"
+                    <p> some text</p>
+                    </div>
+        </div>
+    </body>
+</html>

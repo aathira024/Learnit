@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+  }
+  ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    overflow:hidden;
+    
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:skyblue;
+  
+  }
+  li{
+      float:left;
+      border-right:2px solid white;
+  }
+  li a {
+      display:block;
+      text-align: center;
+      padding:14px 16px;
+      
+      background-color: red;
+      color:white;
+      }
+      li:last-child{
+          border:none;
+      }
+li a:hover:not(.active)
+{
+    background-color:green;
+}
+.active{
+    background-color:blue;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: skyblue
+}
+h1 {
+    color: violet;
+    font-size: 30px;
+}
+p {
+    color: orange;
+    text-align: center;
+}
